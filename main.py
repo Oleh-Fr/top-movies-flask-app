@@ -16,6 +16,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 # API and Headers
+
 API_ACCESS =TMDB_API_KEY
 headers = {
     "accept": "application/json",
